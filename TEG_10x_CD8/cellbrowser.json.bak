@@ -1,0 +1,25 @@
+{
+  "name": "TEG_10x_CD8",
+  "shortLabel": "TEG_10x_CD8",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "clusterField": "Clusters",
+  "labelField": "Clusters",
+  "enumFields": [
+    "Clusters"
+  ],
+  "markers": [
+    {
+      "shortLabel": "Seurat Cluster Markers",
+      "file": "/Users/pbrazda/Dropbox/PMC/research/projects/BreastCancer/analysis/10x/out/markers.txt"
+    }
+  ],
+  "coords": [
+    {
+      "shortLabel": "Seurat umap",
+      "file": "/Users/pbrazda/Dropbox/PMC/research/projects/BreastCancer/analysis/10x/out/umap.coords.tsv"
+    }
+  ],
+  "inDir": ""
+}
